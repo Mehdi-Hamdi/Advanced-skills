@@ -1,0 +1,73 @@
+header {
+    background-color: blue;
+    color: beige;
+    height: 50vh;
+    min-height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: solid greenyellow 10px;
+}
+
+header img {
+    align-self: flex-start;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+#myskills {
+    font-size: 3rem;
+    font-family: Impact cursive, monospace;
+    color: crimson;
+}
+
+.subheading {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+*{
+    margin: 1;
+    padding: 2px;
+}
+#goals {
+    font-size: 2rem;
+}
+
+.goal-li{
+    font-size: 75%;
+}
+.box1 {
+    background: pink;
+    margin: 25px 5px;
+    padding-left: 25px;
+}
+
+.container {
+    max-width: 740px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn [type = "submit"]{
+    padding: 8px;
+    border: none;
+    background-color: darkblue;
+    color: whitesmoke
+}
+
+.btn[type = "submit"]:hover{
+    cursor: pointer;
+}
+
+a:visited, a:link {
+    color: initial;
+}
+
+.clickable:active {
+    transform: translate(5px);
+}
